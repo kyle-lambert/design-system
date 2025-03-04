@@ -42,16 +42,3 @@
   --font-sans: 'OpenSauceTwo', ui-sans-serif, system-ui, sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
-
-@custom-variant aria-invalid (&:where([aria-invalid="true"]));
-
-@custom-variant data-active (&:where([data-active]));
-@custom-variant data-focus (&:where([data-focus]));
-@custom-variant data-focus-visible (&:where([data-focus-visible]));
-@custom-variant data-readonly (&:where([data-readonly]));
-@custom-variant data-hover (&:where([data-hover]));
-@custom-variant data-disabled (&:where([data-disabled]));
-@custom-variant data-invalid (&:where([data-invalid]));
-@custom-variant data-state-indeterminate (&:where([data-state="indeterminate"]));
-@custom-variant data-state-checked (&:where([data-state="checked"]));
-@custom-variant data-state-unchecked (&:where([data-state="unchecked"]));
